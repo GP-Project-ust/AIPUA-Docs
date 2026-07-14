@@ -6,7 +6,8 @@
 **مستودع التوثيق الرسمي لمشروع التخرج — مرحلة التخطيط**
 
 [![Status](https://img.shields.io/badge/Status-Planning%20Phase-blue)]()
-[![Version](https://img.shields.io/badge/Docs-v3.0-success)]()
+[![SRS](https://img.shields.io/badge/SRS-v1.0-brightgreen)]()
+[![Vision](https://img.shields.io/badge/Vision-v3.0-success)]()
 [![Team](https://img.shields.io/badge/Team-4%20Members-orange)]()
 [![License](https://img.shields.io/badge/License-Academic-lightgrey)]()
 
@@ -51,12 +52,34 @@
 ```
 AIPUA-Docs/
 ├── 📄 README.md                         # هذا الملف
+├── 📄 SRS_AIPUA_Complete.md             # وثيقة متطلبات البرمجيات الشاملة (v1.0)
 └── 📄 Project_Vision_Document.md        # وثيقة رؤية المشروع (v3.0)
 ```
 
 ---
 
-## 📚 الوثيقة الرئيسية
+## 📚 الوثائق الرئيسية
+
+### 📋 [SRS — وثيقة متطلبات البرمجيات (v1.0)](SRS_AIPUA_Complete.md)
+
+وثيقة شاملة ومتكاملة تحتوي على **14 فصل** و **~34,400 كلمة** و **3,600+ سطر**:
+
+| # | الفصل | الوصف |
+|---|------|------|
+| 1 | المقدمة | الغرض، النطاق، التعريفات، المراجع |
+| 2 | الوصف العام للمنتج | منظور المنتج، الوظائف، المستخدمون، القيود |
+| 3 | المعمارية الهندسية ⭐ | C4، Multi-Agent، Views Layer، Security، Single-LLM |
+| 4 | المتطلبات الوظيفية | 97 متطلب في 15 مجموعة (FR-XXX-NNN) |
+| 5 | المتطلبات غير الوظيفية | 47 متطلب في 10 فئات (NFR-XXX-NNN) |
+| 6 | حالات الاستخدام | 15 حالة استخدام مفصلة (UC-XXX-NNN) |
+| 7 | متطلبات البيانات | ERD، Views Schema، Vector Store، Redis |
+| 8 | الواجهات الخارجية | UI، APIs، Communication، Hardware |
+| 9 | مرحلة التهيئة الذكية ⭐ | 8 ساعات، مولّد Views، مصنّف أمني |
+| 10 | الأمن وحماية البيانات | STRIDE، التصنيف الرباعي، Masking |
+| 11 | تحليل المخاطر | مصفوفة 5×5، سجل المخاطر، التخفيف |
+| 12 | معايير القبول ⭐ | AI KPIs، Before/After Metrics، Test Plan |
+| 13 | إدارة المشروع | RACI، Gantt، WBS، المخرجات |
+| 14 | الملاحق | Data Dictionary، UCs، OpenAPI، Glossary |
 
 ### 📄 [Project Vision Document (v3.0)](Project_Vision_Document.md)
 
@@ -125,6 +148,6 @@ AIPUA-Docs/
 
 <div align="center">
 
-**آخر تحديث**: يوليو 2025 | **الإصدار**: v3.0 | **الحالة**: 🚧 مرحلة التخطيط
+**آخر تحديث**: يوليو 2025 | **الإصدار**: v1.0 (SRS) + v3.0 (Vision) | **الحالة**: 🚧 مرحلة التخطيط
 
 </div>
